@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <div
         className={
-          darkmode ? " bg-slate-900 text-white" : " bg-white text-slate-900"
+          darkmode ? " bg-white text-slate-900" : "bg-slate-900 text-white" 
         }
       >
         
