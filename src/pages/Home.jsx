@@ -203,7 +203,7 @@ export default function Home() {
         </div>
         <div id="projects" className="text-3xl font-thin text-center pt-20 p-10">
           Projects
-          <div className="flex">
+          <div className="flex justify-center">
           <div className="p-5 m-5 text-base bg-slate-400 w-fit rounded-md">
             <a href="https://productivo-application.vercel.app/" target="_blank">
             <img src={project1} height={200} width={300}/>
