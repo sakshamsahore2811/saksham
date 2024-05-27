@@ -73,8 +73,8 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex justify-center animate-slideIn">
-          <div className="text-4xl font-thin p-48">
+        <div className="flex items-center justify-center animate-slideIn">
+          <div className="text-4xl font-thin p-36">
             Hi, I am{" "}
             <span className="text-green-700 hover:underline underline-offset-8">
               Saksham
@@ -108,7 +108,7 @@ export default function Home() {
             </span>
             <br/>
             <span className="">
-              <button className="bg-gray-500 m-2 text-base text-white font-bold rounded-md p-1">SQL</button>
+              <button className="bg-gray-400 m-2 text-base text-white font-bold rounded-md p-1">SQL</button>
             </span>
             <span className="">
               <button className="bg-black m-2 text-base text-white font-bold rounded-md p-1">Next.js</button>
@@ -193,18 +193,73 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className="flex justify-between pl-10">
+              <div className="text-center p-8">
+                <div className="flex p-3 justify-center gap-3 items-center">
+                <div className="text-xl font-thin">HTML</div><div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-white rounded-full"></div>
+                </div>
+                <div className="flex p-3 justify-center gap-3 items-center">
+                <div className="text-xl font-thin">CSS</div><div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-white rounded-full"></div>
+                </div>
+                <div className="flex p-3 justify-center gap-3 items-center">
+                <div className="text-xl font-thin">JS</div><div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-white rounded-full"></div>
+                </div>
+                <div className="flex p-3 justify-center gap-3 items-center">
+                <div className="text-xl font-thin">ReactJS</div><div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-white rounded-full"></div>
+                </div>
+                <div className="flex p-3 justify-center gap-3 items-center">
+                <div className="text-xl font-thin">Python</div><div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-white rounded-full"></div>
+                <div className="w-5 h-5 bg-white rounded-full"></div>
+                </div>
+                <div className="flex p-3 justify-center gap-3 items-center">
+                <div className="text-xl font-thin">Problem Solving</div><div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-white rounded-full"></div>
+                </div>
+                <div className="flex p-3 justify-center gap-3 items-center">
+                <div className="text-xl font-thin">Git</div><div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-green-500 rounded-full"></div>
+                <div className="w-5 h-5 bg-white rounded-full"></div>
+                </div>
 
-        <div className="text-center text-4xl font-thin">About me</div>
-        <div className=" pt-10 text-center text-xl font-thin">
+              </div>
+              <div>
+        <div className="text-4xl font-thin">About me</div>
+        <div className="pr-5 pt-10 text-xl font-thin">
           I have always been a keen observer and a doer rather than a thinker,<br/>
           throughout my college and school life, I always tried to learn and implement<br/>
           new things and think of newer ways to acheive better and optimal results,<br/>
           which I now apply to my coding side as well.
         </div>
+        </div>
+        </div>
         <div id="projects" className="text-3xl font-thin text-center pt-20 p-10">
           Projects
           <div className="flex justify-center">
-          <div className="p-5 m-5 text-base bg-slate-400 w-fit rounded-md">
+          <div className="p-5 m-5 text-base bg-gray-400 w-fit rounded-md hover:scale-125 transition-transform ease-in-out">
             <a href="https://productivo-application.vercel.app/" target="_blank">
             <img src={project1} height={200} width={300}/>
             Productivo AI | Productivity tracking application<br/>
@@ -212,14 +267,14 @@ export default function Home() {
             </a>
           </div>
           
-          <div className="p-5 m-5 text-base bg-slate-400 w-fit rounded-md">
+          <div className="p-5 m-5 text-base bg-gray-400 w-fit rounded-md hover:scale-125 transition-transform ease-in-out">
             <a href="https://github.com/sakshamsahore2811/Face-Secure?tab=readme-ov-file" target="_blank">
             <img src={project2} height={200} width={300}/>
             Face Secure | Face ID security application<br/>
             <span className="text-green-700 font-bold">Python | BootstrapCSS | Tensorflow</span>
             </a>
           </div>
-           <div className="p-5 m-5 text-base bg-slate-400 w-fit rounded-md">
+           <div className="p-5 m-5 text-base bg-gray-400 w-fit rounded-md hover:scale-125 transition-transform ease-in-out">
             <a href="https://github.com/sakshamsahore2811/Face-Secure?tab=readme-ov-file" target="_blank">
             <img src={project3} height={200} width={300}/>
             Enlister | Job portal application<br/>
